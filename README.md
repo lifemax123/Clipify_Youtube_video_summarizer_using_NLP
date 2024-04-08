@@ -1,10 +1,12 @@
-# SummaryScape
+# CLIPIFY
 
-![SummaryScape Logo](app/images/logo.png)
+![Clipify Logo](app/images/logo.png)
 
-> NLP-driven YouTube Video Summarising Android Application
+> CLIPIFY YouTube Video Summarising Android Application usinG NLP
 
-> Can’t decide whether or not to watch an entire video or don’t have much time to watch that? Use SummaryScape and get a “summarised version” of any video!
+VideoMash is a video summarizer where in you can upload any video from local system or can provide the YouTube URL for your video to summarize it into any duration which you provide as input. Summarization is done using NLP algorithms which is used to analyze the subtitles of the video to extract the important parts. 
+
+Read medium article : [Video summarizer made easy](https://medium.com/@aswanthkanil/video-summarizer-made-easy-using-nlp-af0afdea49b5)
 
 We provide an Android Application that generates the summary of any video on YouTube that you want to watch quickly. We use NLP to process the subtitles of the video and give you a crunched video that encompasses all the essential parts while leaving out filler words and stop words. We compress the video and deliver to you a considerably shortened video.
 This can be especially useful for students who wish to quickly go through an educational video on youtube or elsewhere and want to see if what they are looking for is available in the video. They can then decide whether or not to watch the entire video.
@@ -22,19 +24,22 @@ Latent Semantic Analysis(LSA) is a relatively new algorithm in NLP that combines
 
 ## Backend Setup
 
-To install requirements(virtual environment recommended)
+- To install requirements(virtual environment recommended)
 ```
  pip install -r requirements.txt
 ```
 
-To Run
+- To Run
 ```
 python server.py
 ```
 
 ## Frontend Setup
 
-After the Flask server is running, set the variable `backendIP` to `IP:Port` of the Flask server. Check `MainActivity.kt` for the variable.
+- After the Flask server is running, set the variable `backendIP` to `IP:Port` of the Flask server. Check `MainActivity.kt` for the variable.
+- Change path in server.py
 
 Now, you can go ahead and run the application on an Android phone or emulator.
+
+
 

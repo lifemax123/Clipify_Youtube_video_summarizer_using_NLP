@@ -4,7 +4,7 @@
 
 > CLIPIFY YouTube Video Summarising Android Application usinG NLP
 
-VideoMash is a video summarizer where in you can upload any video from local system or can provide the YouTube URL for your video to summarize it into any duration which you provide as input. Summarization is done using NLP algorithms which is used to analyze the subtitles of the video to extract the important parts. 
+Clipify is a video summarizer where in you can provide the YouTube URL for your video to summarize. Summarization is done using NLP algorithms which is used to analyze the subtitles of the video to extract the important parts. 
 
 Read medium article : [Video summarizer made easy](https://medium.com/@aswanthkanil/video-summarizer-made-easy-using-nlp-af0afdea49b5)
 

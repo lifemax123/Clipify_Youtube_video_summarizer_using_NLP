@@ -3,6 +3,9 @@
 ![Clipify Logo](app/images/logo.png)
 
 > CLIPIFY YouTube Video Summarising Android Application usinG NLP
+>
+> Our Review paper are published on the International Journal of Performability Engineering, Index in SCOUPUS.
+
 
 Clipify is a video summarizer where in you can provide the YouTube URL for your video to summarize. Summarization is done using NLP algorithms which is used to analyze the subtitles of the video to extract the important parts. 
 
